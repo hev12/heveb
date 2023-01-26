@@ -1,0 +1,130 @@
+header {
+  background-color: black;
+}
+
+.content {
+  max-width: 1500px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  color: white;
+  transition: all 0.3s ease-in;
+}
+#logo:hover {
+  color: rgb(184, 174, 174);
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+  border: 1px solid;
+}
+
+li {
+  height: 100%;
+  width: fit-content;
+  margin: 0rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+a:hover {
+  color: gold;
+}
+
+.filled-link {
+  display: block;
+  background-color: white;
+  border-radius: 100px;
+  height: 40px;
+  width: 120px;
+  color: black;
+  margin: 0;
+
+  transition: all 0.2s ease-in;
+}
+
+.filled-link a {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filled-link:hover {
+  outline: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.sign-out {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.filled-link-alt {
+  display: block;
+  background-color: black;
+  border-radius: 100px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  margin: 0;
+  margin-right: 0.5rem;
+
+  transition: all 0.2s ease-in;
+}
+
+.filled-link-alt a {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filled-link-alt:hover {
+  outline: 2px solid white;
+  background-color: rgb(36, 33, 33);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem 0;
+
+    height: 200px;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .content {
+    height: 450px;
+    margin-bottom: 4rem;
+  }
+}
