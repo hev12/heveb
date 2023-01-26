@@ -9,4 +9,4 @@ Mikael tekil uu78418R
 Kibrom kidane 83531R
 Yeabsira dereje 83392
 
-our assign is about
+Our project is a website blog posting and viewing website . in this website you can view d/nt blogs . you can create your own blog,edit it, also add photo and you can delete it as you want. it have login and signup features and we provided different and secured forms of inserting your personal information.
