@@ -6,7 +6,7 @@ Our project title is MANBEB . It is  blog posting and viewing website . In this 
 
 if you have any problem in opening our project or have any question contact as on telegram-@hevuless
 
-Name           Id
+Name                 Id
 
 Heven Demeke  uuu78598R
 
