@@ -1,6 +1,6 @@
 IP II ASSIGNMENT
 SECTION = CC/N2 
- name           id
+name           id
 Heven Demeke  uuu78598R
 Maryamawit Tilahun uu81043R
 Medhin abrham uu83469R 
